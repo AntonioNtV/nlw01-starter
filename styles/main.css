@@ -1,6 +1,7 @@
 :root {
     --title-color: #322153;
     --primary-color: #34cb79;
+    --secundary-color: #2fb86e;
 }
 
 * {
@@ -53,6 +54,11 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     color: var(--title-color);
     font-weight: 700;
+    transition: 400ms;
+}
+
+#page-home header a:hover {
+    color: var(--secundary-color);
 }
 
  #page-home header a span {
